@@ -23,15 +23,16 @@ button.addEventListener('click', function(){
     console.log(prezzo)
 
     if (eta === 'minorenne'){
-        prezzo = prezzo * 0.8.toFixed(2)
+        prezzo = prezzo * 0.8.toFixed(2);
         console.log(prezzo)
     }
 
     else if (eta === 'over 65'){
-        prezzo = prezzo * 0.6.toFixed(2)
+        prezzo = prezzo * 0.6.toFixed(2);
         console.log(prezzo)
     }
     
+    document.getElementById('costo_finale').innerHTML = prezzo.toFixed(2)
 })
 
 
