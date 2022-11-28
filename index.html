@@ -11,13 +11,14 @@
     </head>
     <body>
         <main>
-            <div id="container" class="w-75 mx-auto p-4 rounded-5">
+            <!-- container form  -->
+            <div class="container w-75 mx-auto p-4 rounded-5 mb-4">
                 <form class="row">
                     <div class="col-12 text-center mb-3">
                         <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
                     </div>
                     <div class="mb-3 col-4">
-                      <label for="exampleInputText1" class="form-label">Inserisci il tuo nome</label>
+                      <label for="exampleInputText1" class="form-label">Inserisci il tuo nome e cognome</label>
                       <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
                     </div>
                     <div class="mb-3 col-4">
@@ -38,24 +39,36 @@
 
                     </div>
                 </form>
-                <h2 id="costo_finale"></h2>
-                <!-- <input type="text" id="nome">
-                <input type="text" id="km">
-                <select name="eta" id="eta">
-                    <form action="">
-                        <option >minorenne</option>
-                        <option >maggiorenne</option>
-                        <option >over 65</option>
-            
-                        <input type="button" id="button" value="genera"> 
-                    </form>
-        
-                    <h2 id="costo_finale"></h2>
-                </select> -->
             </div>
+            <!-- container il tuo biglietto  -->
+            <div class="container w-75 mx-auto p-4 rounded-5">
+                <div class="row">
+                    <div class="col-12 text-center mb-3">
+                        <h2>IL TUO BIGLIETTO</h2>
+                    </div>
+                    <div class="col-4">
+                        <h3>Nome del passeggero</h3>
+                        <h4 id="nome_passeggero"></h4>
+                    </div>
+                    <div class="col-2">
+                        <h3>Casa</h3>
+                        <h4 class="text-primary">Corvonero</h4>
+                    </div>
+                    <div class="col-2">
+                        <h3>Binario</h3>
+                        <h4>9 3/4</h4>
+                    </div>
+                    <div class="col-2">
+                        <h3>Carrozza</h3>
+                        <h4>5</h4>
+                    </div>
+                    <div class="col-2">
+                        <h3>Costo</h3>
+                        <h4 id="costo_finale"></h4>
+                    </div>
 
-
-
+                </div>
+            </div>
         </main>
         <script type="text/javascript" src="./js/main.js"></script>
     </body>

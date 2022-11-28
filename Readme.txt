@@ -7,3 +7,4 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
     //3.2 - Applicare eventuali sconti del 20% o 40% rispettivamente per under 18 o over 65.
 //4 - Arrotondare risultato in due cifre decimali
 //5 - Visualizzare in forma umana l'output del prezzo finale.
+//6 - Visualizzare nome inserito dell'utente nell'input.

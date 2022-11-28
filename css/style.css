@@ -1,0 +1,25 @@
+/* regole generali  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+main{
+    background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/3DV0Eo1jOMoOaAyC2c8K4S/acfbaf62612154ef2b5d514aff8b0774/KingsCross_PM_B1C6M1_HogwartsExpressExterior_Moment.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 50px;
+}
+
+.container{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.container h4,
+.container h3{
+    background-color: rgba(255,255,255,0.3);
+    border-radius: .6rem;
+}
+    
