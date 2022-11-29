@@ -8,3 +8,4 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
 //4 - Arrotondare risultato in due cifre decimali
 //5 - Visualizzare in forma umana l'output del prezzo finale.
 //6 - Visualizzare nome inserito dell'utente nell'input.
+//7 - Tasto Reset riporta i valori "Nome del passeggero" e "prezzo" agli stati iniziali

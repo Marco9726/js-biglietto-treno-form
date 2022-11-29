@@ -18,13 +18,13 @@ button.addEventListener('click', function(){
 
     // calcolo prezzo minorenne 
     if (eta === 'minorenne'){
-        prezzo = prezzo * 0.8.toFixed(2);
+        prezzo = prezzo * 0.8;
         console.log(prezzo)
     }
 
     // calcolo prezzo over 
     else if (eta === 'over 65'){
-        prezzo = prezzo * 0.6.toFixed(2);
+        prezzo = prezzo * 0.6;
         console.log(prezzo)
     }
     
@@ -35,3 +35,12 @@ button.addEventListener('click', function(){
 })
 
 
+// Tasto Reset riporta i valori "Nome del passeggero" e "prezzo" agli stati iniziali
+
+let reset = document.getElementById('reset');
+reset.addEventListener('click', function(){
+    
+    document.getElementById('nome_passeggero').innerHTML = "";
+    document.getElementById('costo_finale').innerHTML = "";
+    
+})
